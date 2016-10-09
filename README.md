@@ -1,5 +1,7 @@
 # SublimeText 3 URLHandler on OS X
 
+[![Maintenance](https://img.shields.io/maintenance/no/2016.svg?maxAge=2592000)]()
+
 This application enables SublimeText 3 to open `subl:` urls, as Textmate has as described [here](http://manual.macromates.com/en/using_textmate_from_terminal#url_scheme_html): `subl://open/?url=file:///etc/passwd&line=10&column=2`
 
 ### Install
