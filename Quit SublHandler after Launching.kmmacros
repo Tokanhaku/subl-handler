@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>517875127.37260902</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Quit</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>org.asuth.sublhandler</string>
+							<key>Name</key>
+							<string>SublHandler</string>
+							<key>NewFile</key>
+							<string>/Applications/Third-Party Tools/SublHandler.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>QuitSpecificApp</string>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>528975424.58883703</real>
+				<key>ModificationDate</key>
+				<real>553288828.34759998</real>
+				<key>Name</key>
+				<string>Quit SublHandler after Launching</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>org.asuth.sublhandler</string>
+							<key>Name</key>
+							<string>SublHandler</string>
+							<key>NewFile</key>
+							<string>/Applications/Third-Party Tools/SublHandler.app</string>
+						</dict>
+						<key>FireType2</key>
+						<string>Activate</string>
+						<key>MacroTriggerType</key>
+						<string>Application</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>EB668276-B012-4E07-A595-3F52A812E737</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Beta</string>
+		<key>ToggleMacroUID</key>
+		<string>D66AD468-81C1-47BF-9BFF-6D232078C7D0</string>
+		<key>UID</key>
+		<string>539D3149-2A6D-4330-B3EE-FAB163E97793</string>
+	</dict>
+</array>
+</plist>
